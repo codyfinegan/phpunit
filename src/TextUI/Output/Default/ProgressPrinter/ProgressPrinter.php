@@ -383,7 +383,7 @@ final class ProgressPrinter
 
             $this->printer->print(
                 sprintf(
-                    ' %' . $this->numberOfTestsWidth . 'd / %' .
+                    ' %' . $this->numberOfTestsWidth . 'd !!!/!!!! %' .
                     $this->numberOfTestsWidth . 'd (%3s%%)',
                     $this->numberOfTestsRun,
                     $this->numberOfTests,
